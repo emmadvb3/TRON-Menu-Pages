@@ -1,0 +1,372 @@
+
+/* About Header*/
+.about{
+color: white;
+text-align: left;
+font-family: "Nunito", sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+padding-left: 50px;
+}
+
+.aboutContainer{
+display:flex;
+align-items:center;
+background-image: linear-gradient(42deg, #001250 17%, #5584D5 78.3%);
+height: 130px;
+}
+
+/* What is TRON*/
+.hero{
+    background: linear-gradient(90deg, #001725 0%, #307bdc 100%);
+    padding:75px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:701px) and (max-width:900px){
+    .hero{
+        background: linear-gradient(90deg, #001725 0%, #307bdc 100%);
+        padding:50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .hero{
+        background: linear-gradient(90deg, #001725 0%, #307bdc 100%);
+        padding:15px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+h2{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+@media (min-width:701px) and (max-width:900px){
+    h2{
+    text-align: center;
+    color:white;
+    font-size: 26px;
+    font-family: "Nunito", sans-serif;
+    }
+}
+
+@media (max-width:700px){
+    h2{
+    text-align: center;
+    color:white;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    }
+}
+
+.AboutText{
+    color:white;
+}
+
+p{
+    text-align:center;
+    padding-left:75px;
+    padding-right:75px;
+    font-size:22px;
+    font-family: "Nunito", sans-serif;
+}
+
+@media (min-width:701px) and (max-width:900px){
+    p{
+        text-align:center;
+        padding-left:75px;
+        padding-right:75px;
+        font-size:20px;
+        font-family: "Nunito", sans-serif;
+    }
+}
+
+@media (max-width:700px){
+    p{
+        text-align:center;
+        padding-left:75px;
+        padding-right:75px;
+        font-size:16px;
+        font-family: "Nunito", sans-serif;
+    }
+}
+
+
+/* benefits*/
+
+.BenefitsSection{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#eaebec;
+    padding-top:20px;
+}
+
+h1{
+    font-family: "Nunito", sans-serif;
+}
+
+.Benefits-Text{
+    display: inline-block;
+    margin-top:0;
+    max-width:1000px;
+}
+
+/* Benefits Cards*/
+.cardsContainer{
+background-color:#eaebec;
+padding:50px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+gap:2rem;
+}
+
+.card1{
+text-align: center;
+width: 250px;
+height: 280px;
+border:2px, solid, rgb(213, 213, 213);
+border-bottom: thick solid rgb(31, 60, 101);
+background-color: white;
+}
+
+.disc{
+    text-align:center;
+    padding-top: 15px;
+}
+
+h3{
+    color: rgb(41, 41, 41);
+    font-family: "Nunito", sans-serif;
+}
+
+.cardtext{ 
+    color: rgba(0, 0, 0, 0.50); 
+    font-size:15px;
+    padding-left:20px;
+    padding-right:20px
+}
+
+
+/* Orchestration Framework*/
+.OR-Framework{
+display:flex;
+flex-direction:column;
+background: linear-gradient(90deg, #001725 0%, #307bdc 100%);
+padding-top:50px;
+padding-bottom:70px;
+justify-content: center;
+align-items: center;
+}
+
+.OR-Framework-H1{
+    color:white;
+    font-style:italic;
+    font-weight:300;
+    padding-bottom:20px;
+}
+
+.OR-Framework-img{
+    max-width:90%;
+    height:auto;
+}
+
+/* Current Applications*/
+.CurrentAppSection{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap: 2rem;
+    background-color:#f6f6f6;
+}
+
+
+@media(max-width: 700px) {
+    .CurrentAppSection{
+        display:grid;
+        grid-template-columns:1fr;
+        gap: 2rem;
+        background-color:#f6f6f6;
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+}
+
+.globeImage{
+    max-width:100%;
+    height:auto;
+}
+
+@media(max-width: 700px) {
+    .globeImage{
+        display:none;
+    }
+}
+
+.CAList{
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content:center;
+}
+
+.CAText{
+color:black;
+margin:.5rem
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .CAText{
+        color:black;
+        margin:.5rem;
+        font-size:20px;
+        }  
+  }
+
+ul{
+margin:0;
+padding-left:10px;
+font-family: "Nunito", sans-serif;
+font-size:18px;
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    ul{
+        margin:0;
+        padding-left:10px;
+        font-family: "Nunito", sans-serif;
+        font-size:16px;
+        }
+  }
+
+li{
+    padding:5px;
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    li{
+        padding:2px;
+    }
+  }
+
+/* Connect with Us*/
+
+.ConnectSection{
+    display:flex;
+    flex-direction:column;
+    padding-top:30px;
+    padding-bottom:60px;
+}
+
+  .ConnectText{
+    color:black;
+  }
+
+.CSTop{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+padding-bottom:50px;
+}
+
+  .PlainList{
+    list-style:none;
+    text-align:center;
+  }
+
+  /* Connect with Us - Cards*/
+.Card2-Section{
+display:flex;
+flex-wrap: wrap;
+flex-direction:row;
+justify-content:center;
+gap:2rem;
+}
+
+  .Card2 {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 266px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #e1e1e1;
+    }
+
+  .blue-rectangle {
+    margin:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 8px;
+    background-color: #174d9d;
+    width: 231px;
+    height: 101px;
+    }
+   
+  .icon{
+    width:70px;
+    height:70px;
+    }
+   
+  .jira-text{
+    color:white;
+    font-family: "Nunito", sans-serif;
+    font-size:50px;
+    padding-top:40px;
+    font-size:40px;
+    padding-left:5px;
+   }
+
+  .text-container-rectangle{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:220px;
+    height:150px;
+   }
+
+  .text-container{
+    padding-top:20px;
+   }
+
+   .text-container-rectangle-teams{
+    display:flex;
+    flex-direction:column;
+    margin-top:13px;
+    width:220px;
+    height:150px;
+   }
+   
+  .card2-item{
+    font-size:16px;
+    margin:0;
+    padding:0;
+    text-align:left;
+   }
+
+  a{
+    font-family: "Nunito", sans-serif;
+    font-size:15px;
+   }
+
+   .email{
+    font-family: "Nunito", sans-serif;
+    font-size:15px;
+    padding:0;
+    margin:0;
+    text-align:left;
+   }
